@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Lukas Eiferlinger – Full-Stack Dev</title>
+    
+    <meta name="description" content="Portfolio of a 14-year-old full-stack developer." />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="google-site-verification" content="_h_6-4MmURpEsNoV9MECkCSb60eM-NnxBxaPK1WE3lY" />
+
+    <link rel="icon" href="le-logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="le-logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9Q4KQGJ');</script>
+<!-- End Google Tag Manager -->
+</head>
+  <body>
+   <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9Q4KQGJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+  <img src="le-logo.png" alt="L E Monogramm Logo" class="le-logo-img">
+</div>
+
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu" >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <i class="fas fa-moon" id="themeIcon"></i></button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="profile-image-wrapper">
+              <div class="profile-image">
+                <div class="image-placeholder">
+                  
+                  <img src="le-logo.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="highlight">Lukas Eifertinger</span>
+            </h1>
+
+            <div class="hero-subtitle">
+              <span id="typedText"></span>
+              <span class="cursor">|</span>
+            </div>
+
+            
+
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="https://7ukasx.github.io/Resume---Lukas-Eifertinger/" class="btn btn-secondary" target="_blank">View Resume</a>
+            </div>
+          </div>
+
+          <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-underline"></div>
+
+          <div class="about-content">
+            <div class="about-text">
+              <p class="about-paragraph">
+                At just <strong>14 years old</strong>, I'm a passionate <strong>full-stack web developer</strong> driven by a mission to transform creative concepts into innovative, high-performance web applications.
+              </p>
+
+              <p class="about-paragraph">
+                My journey rapidly progressed from HTML & CSS fundamentals to building dynamic user interfaces <strong>(React & JavaScript)</strong> and powering scalable backends <strong>(Node.js)</strong>.
+              </p>
+
+              <p class="about-paragraph">
+                My <strong>C1-level English</strong> ensures seamless communication, allowing me to collaborate effectively on global and international projects.
+              </p>
+
+              <p class="about-paragraph">
+                I constantly challenge myself by contributing to open-source projects and diving into the latest industry best practices. When I'm not coding, I balance screen time with strength training at the gym—a discipline I bring to my development work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <div class="section-underline"></div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fab fa-html5"></i>
+              <h3>HTML5</h3>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS3</h3>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-js"></i>
+              <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-react"></i>
+              <h3>React</h3>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-node"></i>
+              <h3>Node.js</h3>
+            </div>
+
+            <div class="skill-card">
+              <i class="fas fa-server"></i>
+              <h3>Express</h3>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-java"></i>
+              <h3>Java</h3>
+            </div>
+
+            <div class="skill-card">
+              <i class="fas fa-language"></i>
+              <h3>English C1</h3>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-language"></i>
+              <h3>German C2</h3>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-chart-line"></i>
+              <h3>Google SEO</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="section-underline"></div>
+
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="locklelogo.png" alt="Screenshot of the Secure Encryption project">
+                  </div>
+              <div class="project-content">
+                <h3 class="project-title">Secure Encryption </h3>
+                <p class="project-description">
+                  A web application that allows users to securely encrypt and decrypt messages. Built with JavaScript
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Html</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/7ukasx/Secure-encryption" class="project-link" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i> Code
+                  </a>
+                  <a href="https://7ukasx.github.io/Secure-encryption/" class="project-link" target="_blank" rel="noopener">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+             <div class="project-image">
+              <img src="lestocklogo.png" alt="Screenshot of the Stock Tracker project">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Stock Tracker</h3>
+                <p class="project-description">
+                  A web application that allows users to track stock prices in real-time. Built with JavaScript and Express.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Fullstack</span>
+                  <span class="tech-tag">Api</span>
+                  <span class="tech-tag">Login</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/7ukasx/Stockapp" class="project-link" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i> Code
+                  </a>
+                  <a href="https://7ukasx.github.io/Stockapp/" class="project-link" target="_blank" rel="noopener">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+              <img src="ledumbbelllogo.png" alt="Screenshot of the Gym Tracker project">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Gym tracker</h3>
+                <p class="project-description">
+                  A platform that helps users track their workouts and progress.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/7ukasx/Gym-tracker" class="project-link" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i> Code
+                  </a>
+                  <a href="https://7ukasx.github.io/Gym-tracker/" class="project-link" target="_blank" rel="noopener">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-underline"></div>
+
+          <p class="contact-description">
+            I'm always open to discussing new projects, creative ideas, or opportunities.
+            Feel free to reach out through any of the platforms below!
+            <B>Let's connect!</B>
+          </p>
+
+          <div class="social-links">
+            <a href="https://github.com/7ukasx" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lukas-eifertinger-0b80a8377/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/x7ukas" class="social-link" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:eifertingerlukas@gmail.com" class="social-link email-link" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+
+          <div class="email-copy">
+            <p class="email-text">eifertingerlukas@gmail.com</p>
+            <button class="copy-btn" id="copyEmailBtn">
+              <i class="fas fa-copy"></i> Copy Email
+            </button>
+          </div>
+
+          <div class="copy-notification" id="copyNotification">
+            Email copied to clipboard!
+          </div>
+        </div>
+        <div class="contact-download">
+    <a href="Lukas_Eifertinger_Resume.pdf" download class="cv-download-btn">
+        <i class="fas fa-file-arrow-down"></i> Download Resume
+    </a>
+</div>
+
+</section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Lukas Eifertinger. All rights reserved.</p>
+        <p class="footer-note">For any further inquiries, feel free to reach out!</p>
+      </div>
+    </footer>
+    <a id="scrollTopBtn" href="#" >
+    <i class="fas fa-chevron-up"></i>
+</a>
+    <script type="module" src="animations.js"></script>
+
+   <script type="module" src="main.js" defer></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
