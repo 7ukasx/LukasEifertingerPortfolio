@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://7ukasx.github.io/Portfolio/sitemap.xml
+
+Sitemap: https://7ukasx.github.io/LukasEifertingerPortfolio/sitemap.xml
